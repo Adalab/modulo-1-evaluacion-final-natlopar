@@ -1,4 +1,40 @@
 .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
     background-image: url('/images/cover.jpeg');
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    // background-position-y: 10px;
+    &__title {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: $font-bold;
+        color: $color-white;
+        line-height: 1.67;
+        
+    }
+    &__subtitle {
+        color: $color-white;
+        font-family: $font-roboto;
+        font-weight: 100;
+        font-size: $font-size16;
+       
+    }
+    &__scroll {
+        width: 38px;
+        height: 36px;
+        background-color: $color-white;
+        border-radius: 50%;
+        margin-bottom: 33px;
+        margin-top: 16px;
+        &--image {
+            transform: translateY(100%);
+        }
+    }
 }
+
