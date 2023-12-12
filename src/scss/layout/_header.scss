@@ -1,5 +1,9 @@
-.page__header {
+.header {
+  background-color: $color-orange;
+  width: 37px;
+  height: 34px;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
 }
