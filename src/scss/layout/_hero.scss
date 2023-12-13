@@ -26,12 +26,16 @@
         font-family: $font-bold;
         color: $color-white;
         line-height: 1.67;  
+        max-width: 315px;
         @media (min-width: 768px) {
             font-size: 7.5rem;
             line-height: 1.33;
+            max-width: 955px;
+
         }
         @media (min-width: 1200px) {
             font-size: 100px;
+            
         }
     }
     &__subtitle {
