@@ -1,0 +1,14 @@
+.trainingItem {
+    text-align: center;
+    color: $color-black;   
+    &__title {
+        font-family: $font-bold;
+        font-size: $font-size18;
+        height:  30px;
+    }
+    &__text {
+        font-size: $font-size18;
+        font-family: $font-regular;
+        line-height: 1.67;
+    }
+}

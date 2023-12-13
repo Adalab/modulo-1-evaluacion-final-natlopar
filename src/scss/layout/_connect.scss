@@ -26,6 +26,7 @@
     }
     &__button {
         @include button;
+        width: 160px;
         color: $color-orange;
         font-weight: 600;
     }

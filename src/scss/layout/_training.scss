@@ -1,12 +1,32 @@
 .training {
-    background-color: rgb(234, 137, 154);
-    // background-color: $color-white-back;
+    background-color: $color-white-back;
     display: flex;
     flex-direction: column;
-    &__button {
-        @include button;
-        color: $color-white;
-        background-color: $color-orange;
+    height: 624px;
+    align-items: center;
+    gap: 40px;
+    &__title {
+        font-size: $font-size20;
+        font-family: $font-bold;
+        color: $color-black;
+        width: 290px;
+        height: 60px;
+        text-align: center;
+        width: 18ch;
+        margin-top: 29px;
     }
+    &__list {
+        display: grid;
+        grid-template-columns: 180px;
+        grid-template-rows: repeat(3,93px);
+        gap: 50px;
+        &--button {
+            @include button;
+            color: $color-white;
+            background-color: $color-orange;
+            width: 184px;
+            transform: translateY(-50%);
+        }
+    }   
 }
 
