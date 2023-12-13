@@ -1,4 +1,13 @@
-.nameList {
-    text-decoration: none;
-    
+.list__item {
+    list-style: none;
+    &--link {
+        text-decoration: none; 
+        color: $color-white;
+        font-size: $font-size16;
+        font-family: $font-regular;
+        text-transform: uppercase;
+        line-height: 1.88;
+    }
 }
+
+

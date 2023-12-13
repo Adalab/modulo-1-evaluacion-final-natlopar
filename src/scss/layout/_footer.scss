@@ -6,4 +6,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    text-align: center;
+    &__copy {
+        font-size: 1.4rem;
+        font-family: $font-regular;
+        line-height: 2.14;
+        &--heart {
+            color:red;
+        }
+    }
+    &__arrow {
+        @include scroll;
+        width: 45px;
+        height: 45px;
+        transform: translateY(-90%);
+        &--image {
+         transform: translateY(50%);
+        }
+    }
 }
