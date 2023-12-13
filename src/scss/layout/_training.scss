@@ -5,6 +5,10 @@
     height: 624px;
     align-items: center;
     gap: 40px;
+    @media (min-width: 768px) {
+        height: 390px;
+        gap:30px;
+    }
     &__title {
         font-size: $font-size20;
         font-family: $font-bold;
@@ -14,19 +18,32 @@
         text-align: center;
         width: 18ch;
         margin-top: 29px;
+        @media (min-width: 768px) {
+            font-size: 2.8rem;
+            width: 450px;
+            margin-top: 49px;
+        }
     }
     &__list {
         display: grid;
         grid-template-columns: 180px;
         grid-template-rows: repeat(3,93px);
         gap: 50px;
+        @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: repeat(3,212px);
+            grid-template-rows: 1fr; 
+        }
         &--button {
             @include button;
             color: $color-white;
             background-color: $color-orange;
             width: 184px;
             transform: translateY(-50%);
-        }
-    }   
-}
+            @media (min-width: 768px) {
+                transform: translateX(150%);
 
+            }
+        }   
+    }
+}

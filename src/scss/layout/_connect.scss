@@ -3,11 +3,21 @@
     flex-direction: column;
     height: 399px;
     margin: 34px 12px 0px 21px;
+    @media (min-width: 768px) {
+        margin: 26px 37px 40px 37px;
+        height: 270px;
+        justify-content: center;
+    }
     &__title {
       font-family: $font-bold;
       font-size: 2.4rem;
       color: $color-black;
       height: 30px;
+      @media (min-width: 768px) {
+        font-size: 3.2rem;
+        margin-bottom: 12px;
+        margin-top: 5px;
+      }
     }
     &__subtitle {
         font-family: $font-regular;
@@ -15,6 +25,9 @@
         color: $color-orange;
         font-weight: 200;
         height: 22px;
+        @media (min-width: 768px) {
+            font-size: $font-size16;   
+        }
     }
     &__text {
         font-family: $font-regular;
@@ -23,6 +36,10 @@
         line-height: 1.67;
         margin-top: 11px;
         margin-bottom: 20px;
+        @media (min-width: 768px) {
+            font-size: $font-size20;    
+            line-height: 1.5;
+        }
     }
     &__button {
         @include button;
@@ -30,6 +47,6 @@
         color: $color-orange;
         font-weight: 600;
     }
-    
-
 }
+
+     // @media (min-width: 1200px) {
