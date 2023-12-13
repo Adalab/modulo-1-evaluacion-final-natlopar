@@ -8,7 +8,14 @@
     align-items: center;
     gap: 25px;
     text-align: center;
-    padding-bottom: 59px;  
+    padding-bottom: 59px;
+    @media (min-width: 768px) {
+        flex-direction: row;  
+        height: 240px;
+        align-items: start;
+        gap: 30px;
+        padding-top: 58px;  
+    }
     &__copy {
         font-size: 1.4rem;
         font-family: $font-regular;
@@ -16,6 +23,11 @@
         height: 32px;
         &--heart {
             color:red;
+        }
+        @media (min-width: 768px) {
+            order:-1;
+            text-align: left;
+            width: 159px;
         }
     }
     &__arrow {
@@ -25,6 +37,11 @@
         transform: translateY(-50%);
         &--image {
          transform: translateY(50%);
+        }
+        @media (min-width: 768px) {
+            order:-2;
+            position: absolute;
+            transform: translateY(-180%);
         }
     }
 }
