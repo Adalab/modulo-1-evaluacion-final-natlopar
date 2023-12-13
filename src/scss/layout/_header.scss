@@ -6,8 +6,16 @@
   justify-content: center;
   align-items: center;
   position: fixed;
+  @media (min-width: 768px) {
+    width: 41.6px;
+    height: 44px;
+  }
   &__icon {
     width: 14px;
     height: 11px;
+    @media (min-width: 768px) {
+      width: 15px;
+      height: 14px;
+    }
   }
 }

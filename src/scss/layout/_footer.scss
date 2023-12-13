@@ -6,12 +6,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
     text-align: center;
+    padding-bottom: 59px;  
     &__copy {
         font-size: 1.4rem;
         font-family: $font-regular;
         line-height: 2.14;
+        height: 32px;
         &--heart {
             color:red;
         }
@@ -20,7 +22,7 @@
         @include scroll;
         width: 45px;
         height: 45px;
-        transform: translateY(-90%);
+        transform: translateY(-50%);
         &--image {
          transform: translateY(50%);
         }
