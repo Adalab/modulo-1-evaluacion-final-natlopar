@@ -8,3 +8,8 @@
     text-align: center;
     padding: 10px;
 }
+
+@mixin scroll {
+    background-color: $color-white;
+    border-radius: 50%;
+}
