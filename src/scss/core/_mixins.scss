@@ -1,0 +1,11 @@
+@mixin button {
+    text-decoration: none;
+    font-size: $font-size20;
+    font-family: $font-medium;
+    border: 2px solid $color-orange;
+    border-radius: 22.5px;
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+}

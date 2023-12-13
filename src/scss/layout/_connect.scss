@@ -25,19 +25,10 @@
         margin-bottom: 20px;
     }
     &__button {
-        text-decoration: none;
+        @include button;
         color: $color-orange;
-        font-size: $font-size20;
-        font-family: $font-medium;
         font-weight: 600;
-        border: 2px solid $color-orange;
-        border-radius: 22.5px;
-        width: 160px;
-        height: 45px;
-        text-align: center;
-        padding: 10px;
-        
-
     }
+    
 
 }

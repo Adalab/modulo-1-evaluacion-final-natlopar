@@ -3,6 +3,10 @@
     // background-color: $color-white-back;
     display: flex;
     flex-direction: column;
-
+    &__button {
+        @include button;
+        color: $color-white;
+        background-color: $color-orange;
+    }
 }
 
