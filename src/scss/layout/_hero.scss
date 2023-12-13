@@ -30,6 +30,9 @@
             font-size: 7.5rem;
             line-height: 1.33;
         }
+        @media (min-width: 1200px) {
+            font-size: 100px;
+        }
     }
     &__subtitle {
         color: $color-white;
@@ -40,6 +43,10 @@
             font-size: 2.4rem;
             width: 340px;
             line-height: 1.17;
+        }
+        @media (min-width: 1200px) {
+            width: 700px;
+            margin-bottom: 20px;
         }
     }
     &__scroll {

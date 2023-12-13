@@ -8,6 +8,12 @@
         height: 270px;
         justify-content: center;
     }
+    @media (min-width: 1200px) {
+        height: 360px;
+        //la de arriba es la altura de px de zeplin
+        height: 300px;
+        margin-left: 275px;
+    }
     &__title {
       font-family: $font-bold;
       font-size: 2.4rem;
@@ -17,6 +23,9 @@
         font-size: 3.2rem;
         margin-bottom: 12px;
         margin-top: 5px;
+      }
+      @media (min-width: 1200px) {
+        width: 869px;
       }
     }
     &__subtitle {
@@ -39,6 +48,9 @@
         @media (min-width: 768px) {
             font-size: $font-size20;    
             line-height: 1.5;
+        }
+        @media (min-width: 1200px) {
+            width: 869px;
         }
     }
     &__button {

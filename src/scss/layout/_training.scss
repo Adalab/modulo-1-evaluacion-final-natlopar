@@ -9,6 +9,11 @@
         height: 390px;
         gap:30px;
     }
+    @media (min-width: 1200px) {
+        height: 417px;
+        padding-left: 91px;
+        padding-right: 81px;
+    }
     &__title {
         font-size: $font-size20;
         font-family: $font-bold;
@@ -34,6 +39,10 @@
             grid-template-columns: repeat(3,212px);
             grid-template-rows: 1fr; 
         }
+        @media (min-width: 1200px) {
+            grid-template-columns: repeat(3,358.8px);  
+            gap: 15px;
+        }
         &--button {
             @include button;
             color: $color-white;
@@ -42,8 +51,10 @@
             transform: translateY(-50%);
             @media (min-width: 768px) {
                 transform: translateX(150%);
-
             }
-        }   
+            @media (min-width: 1200px) {
+                transform: translate(250%,150%);
+            }
+        }
     }
 }
