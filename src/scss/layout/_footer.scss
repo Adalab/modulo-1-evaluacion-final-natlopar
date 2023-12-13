@@ -39,6 +39,7 @@
         &--image {
          transform: translateY(50%);
         }
+        
         @media (min-width: 768px) {
             order:-2;
             position: absolute;

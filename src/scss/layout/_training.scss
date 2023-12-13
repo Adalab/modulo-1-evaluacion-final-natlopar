@@ -47,8 +47,15 @@
             @include button;
             color: $color-white;
             background-color: $color-orange;
+            font-weight: 500;
             width: 184px;
             transform: translateY(-50%);
+            &:hover {
+                background-color: $color-white;
+                color: $color-orange;
+                transition: background-color 1.5s;
+                transition: color 0.5s;
+            }
             @media (min-width: 768px) {
                 transform: translateX(150%);
             }

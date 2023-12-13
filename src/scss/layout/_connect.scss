@@ -57,8 +57,14 @@
         @include button;
         width: 160px;
         color: $color-orange;
-        font-weight: 600;
+        font-weight: 500;
+        &:hover {
+            background-color: $color-orange;
+            color: $color-white;
+            transition: background-color 1.5s;
+            transition: color 0.5s;
+        }
     }
 }
 
-     // @media (min-width: 1200px) {
+  
