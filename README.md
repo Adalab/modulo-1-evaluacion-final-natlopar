@@ -11,7 +11,7 @@ que resolver varios puntos:
 -Usar media queries.
 -Como extra: resolver algunas interacciones usando transiciones.
 
-##Criterios de evaluación
+## Criterios de evaluación
 
 **General**
 -Usar una estructura adecuada de ficheros y carpetas para un proyecto web, y enlazar bien los
@@ -38,5 +38,5 @@ de id*.
 -Usar CSS grid para emplazar elementos usando una rejilla.
 -Usar transiciones CSS para dotar de dinamismo a un proyecto web.
 
-##¡A por ello!💻
+## ¡A por ello!💻
 
