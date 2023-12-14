@@ -10,11 +10,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     @media (min-width: 768px) {
-        background-size:percentage($number: 1.9);
         padding-bottom: 20px;
-    }
-    @media (min-width: 1200px) {
-        background-size:percentage($number: 1.5);
     }
     &__title {
         text-transform: uppercase;
