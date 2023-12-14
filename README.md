@@ -3,7 +3,7 @@
 
 Bienvenidas a mi ejercicio de evaluación final del primer módulo de Adalab, correspondiente a HTML y CSS.
 
-El ejercicio consiste en **desarrollar una página web** de acuerdo a un diseño que nos han proporcionado. Hay
+El ejercicio consiste en **desarrollar una página web de una tienda deportiva online** de acuerdo a un diseño que nos han proporcionado. Hay
 que resolver varios puntos:
 
 -Usar Sass.
