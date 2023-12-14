@@ -8,17 +8,13 @@
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: -32rem; 
+    background-position: center;
     @media (min-width: 768px) {
         background-size:percentage($number: 1.9);
-        background-position-x: -16rem;
-        background-position-y: -10rem;
         padding-bottom: 20px;
     }
     @media (min-width: 1200px) {
         background-size:percentage($number: 1.5);
-        background-position-x: -28rem;
-        background-position-y: -40rem;
     }
     &__title {
         text-transform: uppercase;
