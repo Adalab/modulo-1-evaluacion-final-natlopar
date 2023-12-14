@@ -22,7 +22,7 @@
         line-height: 2.14;
         height: 32px;
         &--heart {
-            color:red;
+            color: $color-orange;
         }
         @media (min-width: 768px) {
             order:-1;
@@ -39,7 +39,6 @@
         &--image {
          transform: translateY(50%);
         }
-        
         @media (min-width: 768px) {
             order:-2;
             position: absolute;

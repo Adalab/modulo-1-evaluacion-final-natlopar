@@ -11,7 +11,7 @@
     background-position-x: -32rem; 
     @media (min-width: 768px) {
         background-size:percentage($number: 1.9);
-        background-position-x: -15rem;
+        background-position-x: -16rem;
         background-position-y: -10rem;
         padding-bottom: 20px;
     }
@@ -31,17 +31,15 @@
             font-size: 7.5rem;
             line-height: 1.33;
             max-width: 955px;
-
         }
         @media (min-width: 1200px) {
             font-size: 100px;
-            
         }
     }
     &__subtitle {
         color: $color-white;
         font-family: $font-regular;
-        font-weight: 100;
+        font-weight: lighter;
         font-size: $font-size16;
         @media (min-width: 768px) {
             font-size: 2.4rem;
@@ -61,6 +59,10 @@
         @media (min-width: 768px) {
             width: 42.5px;
             height: 45px;
+        }
+        @media (min-width: 1200px) {
+            width: 46.2px;
+            height: 45.9px;
         }
         &--image {
             transform: translateY(100%);
